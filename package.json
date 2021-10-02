@@ -1,0 +1,49 @@
+{
+  "name": "ahj-test-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest --testPathPattern=./src/",
+    "coverage": "jest --testPathPattern=./src/ --coverage",
+    "e2e": "jest --testPathPattern=./e2e/"
+  },
+  "author": "Nadezhda",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-jest": "^25.5.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^3.6.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "jest": "^25.5.4",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "puppeteer": "^10.4.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "core-js": "^3.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kassiopea-coder/ajs-promises.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kassiopea-coder/ajs-promises/issues"
+  },
+  "homepage": "https://github.com/kassiopea-coder/ajs-promises#readme",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/s858tu3j0c4d015k?svg=true)](https://ci.appveyor.com/project/kassiopea-coder/ajs-oop2)"
+}
